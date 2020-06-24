@@ -1,0 +1,137 @@
+
+html, boody {
+    margin: 0;
+
+}
+
+.formatoRoboticaImg{
+    background-image: url("../imagens/robo.png");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+}
+    
+.formatoRobotica  {
+    
+    margin-top: 0px;
+    
+
+}
+.formatoRobotica h3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: orange;
+}
+
+.formatoRobotica p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.anime {
+    opacity: 0;
+    transform: translate3d(0,-100px,0);
+    transition: .3s;
+}
+
+.anime-start {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+
+.espaco{
+    margin-top: 150px;
+}
+.espacoo{
+    margin-top: 100px;
+}
+
+.liknav {
+    background-color: chartreuse;
+    
+}
+
+.fundoImg{
+    background-color: darkslategray;
+    background-image: url('../imagens/altaQualidade2.png');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+}
+
+.trans{
+    opacity: 0.5 ;
+}
+
+/* Roda pe*/
+
+.rodape{
+    background-color: darkslategray;
+    height: 20vh;
+    width: 100%;
+}
+
+.logoRoda{
+   
+    margin-top: 50px;
+    
+}
+
+.rodape h4 {
+    margin-top: 15px;
+    color: beige;
+}
+ 
+.rodape img {
+    margin-left: 5px;
+    margin-top:30px ;
+    height: 30px;
+    width: 30px;
+}
+/* grupos de pesquisa */
+
+
+
+.iconeGrupo{
+    max-width: 100px;
+    margin-top: 25px;
+    
+}
+.letramento {
+    margin-top: 3%;
+}
+
+/*
+  =====================================
+  CSS for <iframe> embedded Google Map
+  =====================================
+*/
+.mapWrapper {
+    position: relative;
+    /*
+    Do math with the height of your iframe divided by the width, then converted to percent
+    In this example the height is 400 and the width is 600
+    400 / 600 = .66666667
+    which is 66.6666667% */
+    padding-bottom: 66.6666667%;
+    height: 0;
+
+}
+.mapWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* This sets an overlay element that covers the map and helps prevent people from zooming the map while scrolling. */
+.overlay {
+   background:transparent;
+   position:relative;
+   width:100%;
+   height:100%;
+   z-index: 1;
+}
